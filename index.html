@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CANAA-OS | LA RESURRECTION</title>
+<style>
+:root{--gold:#D4AF37;--white:#fff;--dark:#1A1A1A}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI,sans-serif}
+body{background:linear-gradient(#fff,#FFF9E6);min-height:100vh}
+.header{background:#fff;border-bottom:3px solid var(--gold);padding:20px;text-align:center}
+.header h1{font-size:12px;letter-spacing:3px;color:var(--gold);font-weight:800}
+.header h2{font-size:20px;font-weight:900;text-transform:uppercase;margin-top:8px}
+.badge{background:var(--gold);color:#fff;padding:5px 15px;border-radius:20px;font-size:11px;font-weight:700;margin-top:10px;display:inline-block}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:15px;padding:20px}
+.card{background:#fff;border:2px solid #F5E6B8;border-radius:16px;padding:20px;text-align:center;box-shadow:0 4px 15px rgba(0,0,0,.05)}
+.card.gold{background:linear-gradient(135deg,#D4AF37,#F9E076);border:none}
+.card h3{font-size:13px;font-weight:800}
+.card p{font-size:10px;color:#888;margin-top:5px}
+.publish{margin:20px;background:#fff;border-radius:16px;padding:20px;border:2px solid var(--gold)}
+textarea{width:100%;border:1.5px solid #E8D9A0;border-radius:12px;padding:15px;min-height:100px;outline:none}
+.btn{width:100%;margin-top:12px;background:var(--gold);color:#fff;border:none;padding:15px;border-radius:12px;font-weight:800;cursor:pointer}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>CANAA-OS 1.0 • CENTRE DE COMMANDEMENT</h1>
+<h2>Ministère Prophétique<br>La Résurrection</h2>
+<div class="badge">PRODUIT FINI • BLANC OR • 11 ÉGLISES</div>
+</div>
+<div class="grid">
+<div class="card gold"><h3>🔴 LANCER UN LIVE</h3><p>Pour tous les Ivoiriens</p></div>
+<div class="card"><h3>📖 ENSEIGNEMENTS</h3><p>Gérer & Publier</p></div>
+<div class="card"><h3>👥 MEMBRES 11 ÉGLISES</h3><p>3 248 membres actifs</p></div>
+<div class="card"><h3>🙏 SOS PRIÈRE</h3><p>7 demandes actives</p></div>
+</div>
+<div class="publish">
+<h3>✍️ Publier pour édifier</h3>
+<textarea id="msg" placeholder="Écrivez l'enseignement du jour..."></textarea>
+<button class="btn" onclick="publier()">PUBLIER MAINTENANT → CANAA-PEUPLE</button>
+<p id="ok" style="text-align:center;margin-top:10px;font-weight:700"></p>
+</div>
+<script>
+function publier(){
+ const v=document.getElementById('msg').value;
+ if(!v)return alert('Écrivez l’enseignement!');
+ document.getElementById('ok').innerText='✅ PUBLIÉ! Visible dans CANAA-PEUPLE pour toute la Côte d’Ivoire!';
+ document.getElementById('ok').style.color='#D4AF37';
+ localStorage.setItem('eglise','RESURRECTION');
+ localStorage.setItem('last',v);
+}
+</script>
+</body>
+                           </html>
