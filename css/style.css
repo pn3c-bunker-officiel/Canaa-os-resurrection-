@@ -1,0 +1,4 @@
+:root{--blanc:#FFF;--or:#D4AF37;--or-clair:#FFF8DC;--noir:#111}
+body{background:var(--blanc);color:var(--noir);font-family:sans-serif;margin:0;padding-bottom:80px}
+.header-or{background:linear-gradient(90deg,#FFF,#FFF8DC);border-bottom:2px solid var(--or);padding:15px;text-align:center}
+.btn-alert{background:var(--or);color:#FFF;border:none;padding:18px 35px;border-radius:50px;font-weight:bold;font-size:18px;width:90%;margin:20px auto;display:block;box-shadow:0 5px 20px rgba(212,175,55,.4)}
