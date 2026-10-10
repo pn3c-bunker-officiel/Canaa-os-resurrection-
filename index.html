@@ -1,69 +1,22 @@
+
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CANAA-OS - Bunker Blanc Or</title>
-
-<!-- PWA - APP BLANCHE -->
-<link rel="manifest" href="/Canaa-os-resurrection-/manifest.json">
-<meta name="theme-color" content="#d4af37">
-<link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/3062/3062634.png">
-
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{background:#fff;color:#111;font-family:system-ui;overflow-x:hidden}
-.bunker{max-width:480px;margin:0 auto;min-height:100vh;background:linear-gradient(180deg,#ffffff 0%,#fffaf0 100%);border-left:4px solid #d4af37;border-right:4px solid #d4af37;position:relative}
-.header{padding:24px;text-align:center;border-bottom:2px solid #d4af37}
-.logo{font-size:42px;font-weight:900;letter-spacing:3px}
-.logo span{color:#d4af37}
-.sub{font-size:11px;letter-spacing:4px;color:#888;margin-top:8px}
-.verse{margin:20px;padding:16px;background:#111;color:#d4af37;text-align:center;font-style:italic;border-radius:8px;font-size:14px}
-.stats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;padding:20px}
-.card{background:#fff;border:1.5px solid #d4af37;border-radius:12px;padding:14px;text-align:center;box-shadow:0 4px 12px rgba(212,175,55,0.15)}
-.card b{font-size:22px;display:block;color:#111}
-.card small{font-size:10px;color:#888;letter-spacing:1px}
-.alert-box{margin:20px;background:#ff0000;color:#fff;padding:18px;border-radius:12px;text-align:center;animation:pulse 2s infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.8}}
-.btn{display:block;margin:20px;padding:18px;background:linear-gradient(135deg,#d4af37,#b8960c);color:#fff;text-align:center;border-radius:12px;text-decoration:none;font-weight:800;letter-spacing:1px;box-shadow:0 6px 20px rgba(212,175,55,0.4)}
-.guardian-link{display:block;margin:0 20px 20px;padding:14px;border:1.5px dashed #d4af37;text-align:center;border-radius:10px;color:#b8960c;text-decoration:none;font-size:13px;font-weight:700}
-.footer{text-align:center;padding:20px;font-size:10px;color:#aaa;letter-spacing:2px}
-</style>
-</head>
-<body>
-<div class="bunker">
-  <div class="header">
-    <div class="logo">CANAA<span>-OS</span></div>
-    <div class="sub">BUNKER BLANC OR • RESSUSCITÉ</div>
-  </div>
-
-  <div class="verse">"Toute la Gloire à Jésus-Christ le Ressuscité - Zéro gloire pour nous"</div>
-
-  <div class="stats">
-    <div class="card"><b>11</b><small>ÉGLISES</small></div>
-    <div class="card"><b>01h53</b><small>HEURE DE RÉSURRECTION</small></div>
-    <div class="card"><b>ON</b><small>BUNKER ACTIF</small></div>
-  </div>
-
-  <div class="alert-box">
-    🚨 ALERTE PROPHÉTIQUE ACTIVE 🚨<br>
-    <small style="font-weight:400">Les 11 sentinelles veillent</small>
-  </div>
-
-  <a class="btn" href="#" onclick="alert('Alerte envoyée aux 11 églises au Nom de Jésus! 🙏');return false;">🔔 DÉCLENCHER L'ALERTE</a>
-  
-  <a class="guardian-link" href="/Canaa-os-resurrection-/guardian.html">🛡️ PAGE DES 11 GARDIENS →</a>
-
-  <div class="footer">PN3C • POUR LA GLOIRE DE JÉSUS SEUL • 2026</div>
-</div>
-
-<!-- ACTIVATION BUNKER GUARDIAN -->
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>CANAA-OS Peuple</title><link rel="manifest" href="manifest.json"><meta name="theme-color" content="#D4AF37">
+<style>:root{--or:#D4AF37;--blanc:#FFFEFB;--noir:#0A0A0A;--rouge:#FF1A1A;}*{margin:0;padding:0;box-sizing:border-box;font-family:Inter,sans-serif}body{background:var(--blanc);color:var(--noir)}.header{position:sticky;top:0;z-index:100;background:rgba(255,254,251,0.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--or);padding:14px 20px;display:flex;justify-content:space-between;align-items:center}.logo{font-weight:900;letter-spacing:4px;font-size:18px}.logo span{color:var(--or)}.badge{border:1px solid var(--or);padding:4px 12px;border-radius:20px;font-size:10px;letter-spacing:2px}.hero{padding:40px 20px;text-align:center}.hero h1{font-size:42px;font-weight:900;line-height:0.9}.hero h1 em{font-style:normal;color:var(--or)}.role-switch{display:flex;gap:8px;justify-content:center;margin:24px 0}.role-btn{padding:10px 18px;border-radius:100px;border:1px solid #ddd;background:#fff;font-size:12px;letter-spacing:1px;cursor:pointer}.role-btn.active{background:var(--noir);color:#fff}.card{background:#fff;border:1px solid rgba(212,175,55,0.2);border-radius:24px;padding:20px;margin:12px 20px;box-shadow:0 8px 32px rgba(212,175,55,0.08)}.input{width:100%;padding:14px 16px;border:1px solid #eee;border-radius:14px;margin-top:8px;font-size:14px}.fab{position:fixed;bottom:24px;right:20px;left:20px;background:var(--rouge);color:#fff;border:none;padding:18px;border-radius:100px;font-weight:800;letter-spacing:2px;font-size:14px;box-shadow:0 12px 40px rgba(255,26,26,0.4);cursor:pointer;z-index:999;display:flex;justify-content:center;align-items:center;gap:10px}.grid{padding:0 0 120px 0}</style></head><body>
+<div class="header"><div class="logo">CANAA-<span>OS</span></div><div class="badge">PEUPLE • BLANC OR</div></div>
+<div class="hero"><h1>BUNKER<br><em>BLANC OR</em></h1><p style="opacity:.6;font-size:14px;margin-top:12px">Une seule App pour tout le peuple.<br>Vendeur, chauffeur, coiffeur, Pasteur.</p>
+<div class="role-switch"><button class="role-btn active" id="b1" onclick="setRole('peuple')">PEUPLE</button><button class="role-btn" id="b2" onclick="setRole('pasteur')">PASTEUR</button></div></div>
+<div class="grid">
+<div class="card" id="peupleCard"><h3 style="font-size:13px;letter-spacing:2px">🚨 SIGNALER UNE ALERTE</h3><p style="font-size:12px;opacity:.6">Ton alerte part au CCO PN3C + FDS pour vérification.</p>
+<select class="input" id="alertType"><option>Danger - Insécurité</option><option>Accident Grave</option><option>Incendie</option><option>Besoin prière urgente</option><option>Autre prophétique</option></select>
+<textarea class="input" id="alertMsg" rows="3" placeholder="Décris lieu exact..."></textarea></div>
+<div class="card" id="pasteurCard" style="display:none"><h3 style="font-size:13px;letter-spacing:2px">⏰ MON HEURE DE PRIÈRE</h3><p style="font-size:12px;opacity:.6">Tu choisis l'heure qui arrange tes fidèles.</p><input type="time" class="input" id="heurePasteur" value="01:53"><input type="text" class="input" placeholder="Nom Église" id="egliseName"><input type="text" class="input" placeholder="Ville" id="ville"><button class="role-btn active" style="width:100%;margin-top:12px" onclick="savePasteur()">ENREGISTRER MON BUNKER</button></div>
+<div class="card"><h3 style="font-size:13px;letter-spacing:2px">🛡️ ANTI-VOL ACTIVÉ</h3><p style="font-size:11px;opacity:.7">Verrouillé à ton appareil. Toute la Gloire à Jésus-Christ.</p></div></div>
+<button class="fab" onclick="declencherAlerte()">🔴 DÉCLENCHER ALERTE</button>
 <script>
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/Canaa-os-resurrection-/sw.js')
-  .then(() => console.log('Bunker Guardian Actif! 🛡️'))
-  .catch(err => console.log('Bunker en veille', err));
-}
-</script>
-</body>
-</html>
+function setRole(r){document.getElementById('b1').classList.toggle('active',r==='peuple');document.getElementById('b2').classList.toggle('active',r==='pasteur');document.getElementById('peupleCard').style.display=r==='peuple'?'block':'none';document.getElementById('pasteurCard').style.display=r==='pasteur'?'block':'none';}
+function savePasteur(){localStorage.setItem('canaa_heure',document.getElementById('heurePasteur').value);localStorage.setItem('canaa_eglise',document.getElementById('egliseName').value);alert('Bunker Pasteur enregistré: '+document.getElementById('heurePasteur').value);}
+function declencherAlerte(){const type=document.getElementById('alertType').value;const msg=document.getElementById('alertMsg').value||'Alerte flottante';const data={type,msg,heure:new Date().toISOString(),role:localStorage.getItem('canaa_eglise')||'peuple'};let a=JSON.parse(localStorage.getItem('canaa_alertes')||'[]');a.unshift(data);localStorage.setItem('canaa_alertes',JSON.stringify(a));alert('🔴 ALERTE ENVOYÉE AU CCO PN3C + FDS\n'+type+'\n'+msg);document.getElementById('alertMsg').value='';}
+if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js');
+document.addEventListener('contextmenu',e=>e.preventDefault());
+</script></body></html>
