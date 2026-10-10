@@ -1,0 +1,4 @@
+:root{--or:#D4AF37;--blanc:#fff}
+body{background:var(--blanc);margin:0;font-family:sans-serif}
+.header-or{border-bottom:2px solid var(--or);padding:15px;text-align:center;background:#FFFBEB}
+.btn-or{background:var(--or);color:#fff;border:none;padding:16px 30px;border-radius:50px;font-weight:bold;width:90%;margin:20px auto;display:block}
