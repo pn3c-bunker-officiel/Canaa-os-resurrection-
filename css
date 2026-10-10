@@ -1,0 +1,34 @@
+:root {
+  --blanc: #FFFFFF;
+  --or: #D4AF37;
+  --or-clair: #FFF8DC;
+  --noir: #111111;
+}
+body {
+  background: var(--blanc);
+  color: var(--noir);
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+.header-or {
+  background: linear-gradient(90deg, var(--blanc), var(--or-clair));
+  border-bottom: 2px solid var(--or);
+  padding: 15px;
+  text-align: center;
+}
+.btn-alert {
+  background: var(--or);
+  color: white;
+  border: none;
+  padding: 18px 35px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 0 5px 20px rgba(212,175,55,0.4);
+  width: 90%;
+  margin: 20px auto;
+  display: block;
+}
+.btn-alert:active {
+  transform: scale(0.95);
+  }
